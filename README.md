@@ -4,7 +4,8 @@
 1. Clonez le dépôt sur votre machine locale
 commande : git clone ...
 2. Installer tous les composants nécessaire
-commande : - npm install
+commande :
+- npm install
 - npm install react-router-dom@6
 - npm install @material-ui/core
 3. Lancer l'application web

@@ -1,19 +1,24 @@
 # Rick-MortyAPI
 
-## Installation
-1. Clonez le dépôt sur votre machine locale
-commande : git clone ...
-2. Installer tous les composants nécessaire
-commande :
-- npm install
-- npm install react-router-dom@6
-- npm install @material-ui/core
-3. Lancer l'application web
-commande : - npm run dev
+## Description
+This project is a web application that utilizes the public Rick and Morty API to list all episodes of the show, providing information such as air dates and characters involved. The application is built using a modern tech stack, including React for the frontend, and is designed to offer a user-friendly interface for exploring the vast universe of Rick and Morty.
 
-## Approche de conception
-J'ai choisis de respecter la structure fournis. Donc dans un premier j'ai analyser tous les dossiers et fichier pour comprendre comment j'aller devoir faire.
-Une fois que je me suis bien imprégner la structure j'ai commencer par faire les requêtes fetch pour voir ce que je devais afficher. Une fois que j'ai finis de faire toutes mes requêtes fetch j'ai commencé par faire la page d'accueil.
-Et après avoir réussi à afficher les informations de mes requêtes fetch j'ai commencé par faire de la mise en forme. J'ai voulue utiliser tailwind css car je sais que c'est l'un des framework css les plus utiliser en react. Et c'est là que les problèmes ont commencé.
-Je n'ai pas réussi à l'initier et l'utiliser, et comme j'avais déjà perdu beaucoup de temps dessus je me suis rabattu sur du css en dur avec les balise <div> par exemple où je rajoutais style={{}} afin de faire ma mise en forme.
-Je dois avouer que je n'ai pas commencer par la version mobile et quand j'ai vue le temps passer je me suis dit qu'il fallait au minimum que je sorte une version correct pour ordinateur. Donc vous verrez qu'il n'y a pas de media query par manque de temps.
+## Key Features
+Episode Listing: Browse through all episodes of Rick and Morty with detailed information.
+Character and Location Information: Access comprehensive data about characters and locations featured in the series.
+Responsive Design: While the initial focus was on the desktop version, the app is structured to support enhancements for mobile responsiveness.
+
+## Installation
+Clone the Repository:
+-git clone <repository-url>
+
+Install Dependencies:
+-npm install
+-npm install react-router-dom@6
+-npm install @material-ui/core
+
+Run the Application:
+-npm run dev
+
+## Design approach
+The design process began with an analysis of the existing folder and file structure to ensure alignment with the project's architecture. Initial efforts focused on making fetch requests to the API to determine the data to be displayed. After successfully retrieving and displaying the data, the homepage was developed. Although Tailwind CSS was initially considered for styling, challenges led to using inline CSS for layout adjustments. Due to time constraints, media queries for mobile responsiveness were not implemented, but the desktop version provides a solid foundation for further development. This description provides a comprehensive overview of your project, highlighting its purpose, features, and technical setup.
